@@ -1,3 +1,9 @@
+pika-settings (3.0-99pika1) kinetic; urgency=low
+
+  * Add pika-theme
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-settings (2.0-99pika12) kinetic; urgency=low
 
   * Move sources init to pika-sources
