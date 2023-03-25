@@ -59,5 +59,9 @@ enabled = true
 sunrise = '/usr/lib/pika/gnome-layouts/libadwaita.sh'
 sunset = '/usr/lib/pika/gnome-layouts/libadwaita.sh'
 
+[org.gnome.shell.extensions.arcmenu]
+custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.png'
+menu-button-icon = 'Custom_Icon'
+
 [org.gnome.mutter]
 check-alive-timeout = 30000
