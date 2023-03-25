@@ -4,7 +4,7 @@
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
-picture-uri-dark = 'file:///usr/share/backgrounds/pika/adwaita-d.webp'
+picture-uri-dark = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
 show-desktop-icons = false
 
 [org.gnome.desktop.screensaver]
