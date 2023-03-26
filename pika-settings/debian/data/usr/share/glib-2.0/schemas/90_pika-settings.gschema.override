@@ -28,6 +28,7 @@ font-name = 'Fira Sans Semi-Light 10'
 enable-animations = true
 font-antialiasing ='rgba'
 font-hinting = 'full'
+color-scheme = 'prefer-dark'
 
 [org.gnome.shell]
 favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'mintinstall.desktop', 'mintupdate.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
