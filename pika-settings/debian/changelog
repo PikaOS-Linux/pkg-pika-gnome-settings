@@ -1,3 +1,9 @@
+pika-settings (3.0-99pika5) kinetic; urgency=low
+
+  * Fix darkmode themeing
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-settings (3.0-99pika4) kinetic; urgency=low
 
   * Fix arcmenu

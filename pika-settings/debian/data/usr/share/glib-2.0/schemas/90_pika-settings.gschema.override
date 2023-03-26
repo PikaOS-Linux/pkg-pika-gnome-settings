@@ -57,7 +57,7 @@ night = 'Orchis-Yellow-Dark'
 [org.gnome.shell.extensions.nightthemeswitcher.commands]
 enabled = true
 sunrise = '/usr/lib/pika/gnome-layouts/libadwaita.sh'
-sunset = '/usr/lib/pika/gnome-layouts/libadwaita.sh'
+sunset = '/usr/lib/pika/gnome-layouts/libadwaita.sh dark'
 
 [org.gnome.shell.extensions.arcmenu]
 custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.png'
