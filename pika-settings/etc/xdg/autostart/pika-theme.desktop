@@ -1,4 +1,5 @@
 [Desktop Entry]
-Type=Application
 Name=Pika Theme Setup
 Exec=pika-theme-setup
+Terminal=false
+Type=Application

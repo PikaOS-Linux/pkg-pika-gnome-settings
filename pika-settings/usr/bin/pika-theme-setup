@@ -1,5 +1,5 @@
 #! /bin/bash
-if dconf read /org/pika/layouts/pika-theme | grep 2
+if gsettings get org.pika.layouts pika-theme | grep 2
 then
 dconf write /org/pika/layouts/pika-theme 1
 dconf write /org/gnome/desktop/wm/preferences/titlebar-font "'Fira Sans Semi-Bold 10'"
