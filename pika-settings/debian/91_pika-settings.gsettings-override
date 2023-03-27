@@ -1,11 +1,13 @@
-#########################
+#################
 # PikaOS Gnome settings #
-#########################
+#################
+
+[org.pika.layouts]
+pika-theme = 2
 
 [org.gnome.desktop.background]
 picture-uri = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
 picture-uri-dark = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
-show-desktop-icons = false
 
 [org.gnome.desktop.screensaver]
 picture-uri = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
@@ -25,16 +27,10 @@ cursor-theme = 'Adwaita'
 monospace-font-name = 'Fira Mono 11'
 document-font-name = 'Roboto Slab 11'
 font-name = 'Fira Sans Semi-Light 10'
-enable-animations = true
-font-antialiasing ='rgba'
-font-hinting = 'full'
 color-scheme = 'prefer-dark'
 
 [org.gnome.shell]
 favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'mintinstall.desktop', 'mintupdate.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
-
-[org.gnome.desktop.peripherals.mouse]
-accel-profile = 'flat'
 
 [org.gnome.shell]
 enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'pika-darkmode@pika.com']
@@ -63,6 +59,3 @@ sunset = '/usr/lib/pika/gnome-layouts/libadwaita.sh dark'
 [org.gnome.shell.extensions.arcmenu]
 custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.png'
 menu-button-icon = 'Custom_Icon'
-
-[org.gnome.mutter]
-check-alive-timeout = 30000

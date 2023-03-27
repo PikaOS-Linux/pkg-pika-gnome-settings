@@ -1,6 +1,6 @@
-###################
+############
 # global settings #
-###################
+############
 
 [org.gnome.evolution-data-server.calendar]
 notify-with-tray=false
@@ -32,7 +32,7 @@ always-show-log-out = true
 [org.gnome.shell.extensions.ding:ubuntu]
 show-trash = false
 show-volumes = false
-start-corner = 'bottom-right'
+start-corner = 'top-left'
 arrangeorder = 'DESCENDINGNAME'
 
 [org.gnome.desktop.background:ubuntu]

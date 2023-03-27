@@ -1,0 +1,15 @@
+############
+# Gnome settings #
+############
+
+[org.gnome.desktop.interface]
+enable-animations = true
+font-antialiasing ='rgba'
+font-hinting = 'full'
+color-scheme = 'prefer-dark'
+
+[org.gnome.desktop.peripherals.mouse]
+accel-profile = 'flat'
+
+[org.gnome.mutter]
+check-alive-timeout = 30000
