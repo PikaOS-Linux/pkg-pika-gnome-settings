@@ -1,0 +1,171 @@
+############
+# global settings #
+############
+
+[org.gnome.evolution-data-server.calendar]
+notify-with-tray=false
+
+[org.gnome.desktop.session]
+session-name = "ubuntu"
+
+[org.onboard]
+layout = 'Compact'
+theme = 'Nightshade'
+key-label-font = 'Ubuntu'
+key-label-overrides = ['RWIN::super-group', 'LWIN::super-group']
+xembed-onboard = true
+
+[org.onboard.window]
+docking-enabled = true
+force-to-top = true
+
+[org.gnome.login-screen]
+logo='/usr/share/plymouth/ubuntu-logo.png'
+
+##################################
+# ubuntu common session settings #
+##################################
+
+[org.gnome.shell:ubuntu]
+always-show-log-out = true
+
+[org.gnome.shell.extensions.ding:ubuntu]
+show-trash = false
+show-volumes = false
+start-corner = 'top-left'
+arrangeorder = 'DESCENDINGNAME'
+
+[org.gnome.desktop.background:ubuntu]
+show-desktop-icons = true
+
+[org.gtk.Settings.FileChooser:ubuntu]
+sort-directories-first = true
+startup-mode = 'cwd'
+
+# Mirror G-S default experience (in overrides) compared to mutter default
+# as we are using a G-S mode, the default overrides aren't used.
+[org.gnome.mutter:ubuntu]
+attach-modal-dialogs = true
+edge-tiling = true
+dynamic-workspaces = true
+workspaces-only-on-primary = true
+focus-change-on-pointer-rest = true
+
+[org.gnome.desktop.peripherals.touchpad:ubuntu]
+tap-to-click = true
+click-method = 'default'
+
+[org.gnome.desktop.wm.keybindings:ubuntu]
+show-desktop = ['<Primary><Super>d','<Primary><Alt>d','<Super>d']
+switch-applications = ['<Super>Tab']
+switch-windows = ['<Alt>Tab']
+switch-applications-backward = ['<Shift><Super>Tab']
+switch-windows-backward = ['<Shift><Alt>Tab']
+
+[org.gnome.nautilus.desktop:ubuntu]
+home-icon-visible = false
+
+[org.gnome.nautilus.icon-view:ubuntu]
+default-zoom-level = 'small'
+
+[org.gnome.shell.extensions.desktop-icons:ubuntu]
+icon-size = 'small'
+
+[org.gnome.nautilus.preferences:ubuntu]
+open-folder-on-dnd-hover = false
+
+[org.gnome.rhythmbox.rhythmdb:ubuntu]
+monitor-library = true
+
+[org.gnome.rhythmbox.plugins.alternative_toolbar:ubuntu]
+display-type=1
+
+[org.gnome.settings-daemon.plugins.print-notifications:ubuntu]
+active = false
+
+[org.gnome.settings-daemon.plugins.background:ubuntu]
+active = false
+
+[org.gnome.software:ubuntu]
+first-run = false
+
+[org.gnome.Terminal.Legacy.Settings:ubuntu]
+theme-variant = 'dark'
+
+############
+# Gnome settings #
+############
+
+[org.gnome.desktop.interface]
+enable-animations = true
+font-antialiasing ='rgba'
+font-hinting = 'full'
+color-scheme = 'prefer-dark'
+
+[org.gnome.desktop.peripherals.mouse]
+accel-profile = 'flat'
+
+[org.gnome.mutter]
+check-alive-timeout = 30000
+
+#################
+# PikaOS Gnome settings #
+#################
+
+[org.pika.layouts]
+pika-theme = 2
+
+[org.gnome.desktop.background]
+picture-uri = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
+picture-uri-dark = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
+
+[org.gnome.desktop.screensaver]
+picture-uri = 'file:///usr/share/backgrounds/pika/can_i_come_in__by_neytirix_ddoss9c.jpg'
+
+[org.gnome.desktop.wm.preferences]
+button-layout = 'appmenu:close'
+titlebar-font = 'Fira Sans Semi-Bold 10'
+theme = 'Orchis-Yellow-Light'
+
+[org.gnome.desktop.sound]
+theme-name = 'pika'
+
+[org.gnome.desktop.interface]
+gtk-theme = 'Orchis-Yellow-Light'
+icon-theme = 'Papirus'
+cursor-theme = 'Adwaita'
+monospace-font-name = 'Fira Mono 11'
+document-font-name = 'Roboto Slab 11'
+font-name = 'Fira Sans Semi-Light 10'
+color-scheme = 'prefer-dark'
+
+[org.gnome.shell]
+favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'mintinstall.desktop', 'mintupdate.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
+
+[org.gnome.shell]
+enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'pika-darkmode@pika.com']
+
+[org.gnome.shell.extensions.nightthemeswitcher.time]
+manual-time-source = true
+ondemand-button-placement = 'none'
+ondemand-time = 'night'
+time-source = 'ondemand'
+
+[org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
+enabled = true
+day = 'Orchis-Yellow-Light'
+night = 'Orchis-Yellow-Dark'
+
+[org.gnome.shell.extensions.nightthemeswitcher.shell-variants]
+enabled = true
+day = 'Orchis-Yellow-Light'
+night = 'Orchis-Yellow-Dark'
+
+[org.gnome.shell.extensions.nightthemeswitcher.commands]
+enabled = true
+sunrise = '/usr/lib/pika/gnome-layouts/libadwaita.sh'
+sunset = '/usr/lib/pika/gnome-layouts/libadwaita.sh dark'
+
+[org.gnome.shell.extensions.arcmenu]
+custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.png'
+menu-button-icon = 'Custom_Icon'
