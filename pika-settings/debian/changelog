@@ -1,3 +1,9 @@
+pika-settings (4.0-99pika1) lunar; urgency=low
+
+  * Update to lunar
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
 pika-settings (3.0-99pika14) kinetic; urgency=low
 
   * Fix darkmode themeing
