@@ -140,7 +140,7 @@ font-name = 'Fira Sans Semi-Light 10'
 color-scheme = 'prefer-dark'
 
 [org.gnome.shell]
-favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'mintinstall.desktop', 'mintupdate.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
+favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'update-manager.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
 
 [org.gnome.shell]
 enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'pika-darkmode@pika.com']
