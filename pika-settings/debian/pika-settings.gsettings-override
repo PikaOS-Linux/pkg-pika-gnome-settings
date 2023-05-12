@@ -167,5 +167,5 @@ sunrise = 'pika-gnome-theme'
 sunset = 'pika-gnome-theme dark'
 
 [org.gnome.shell.extensions.arcmenu]
-custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.png'
+custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.svg'
 menu-button-icon = 'Custom_Icon'

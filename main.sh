@@ -10,8 +10,7 @@ cd ./pika-settings
 apt-get build-dep ./ -y
 
 # Build package
-dh_make --createorig
-dpkg-buildpackage
+dpkg-buildpackage --no-sign
 
 # Move the debs to output
 cd ../
