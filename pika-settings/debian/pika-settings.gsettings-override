@@ -169,3 +169,6 @@ sunset = 'pika-gnome-theme dark'
 [org.gnome.shell.extensions.arcmenu]
 custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.svg'
 menu-button-icon = 'Custom_Icon'
+
+[org.gnome.mutter]
+experimental-features = ['variable-refresh-rate']
