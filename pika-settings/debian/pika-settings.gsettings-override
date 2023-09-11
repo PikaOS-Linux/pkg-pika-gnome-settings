@@ -124,26 +124,26 @@ picture-uri = 'file:///usr/share/backgrounds/pika/Wallpaper_PikaOS_Parrot_8K.png
 
 [org.gnome.desktop.wm.preferences]
 button-layout = 'appmenu:close'
-titlebar-font = 'Fira Sans Semi-Bold 10'
-theme = 'Orchis-Yellow-Light'
+titlebar-font = 'Ubuntu Bold 11'
+theme = 'Jasper-Yellow-Light'
 
 [org.gnome.desktop.sound]
 theme-name = 'pika'
 
 [org.gnome.desktop.interface]
-gtk-theme = 'Orchis-Yellow-Light'
+gtk-theme = 'Jasper-Yellow-Light'
 icon-theme = 'Papirus'
 cursor-theme = 'Adwaita'
-monospace-font-name = 'Fira Mono 11'
-document-font-name = 'Roboto Slab 11'
-font-name = 'Fira Sans Semi-Light 10'
+monospace-font-name = 'Ubuntu Mono 13'
+document-font-name = 'Sans 11'
+font-name = 'Ubuntu 11'
 color-scheme = 'prefer-dark'
 
 [org.gnome.shell]
 favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'update-manager.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
 
 [org.gnome.shell]
-enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'pika-darkmode@pika.com']
+enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'pika-darkmode@pika.com', 'pop-shell@system76.com']
 
 [org.gnome.shell.extensions.nightthemeswitcher.time]
 manual-time-source = true
@@ -153,13 +153,13 @@ time-source = 'ondemand'
 
 [org.gnome.shell.extensions.nightthemeswitcher.gtk-variants]
 enabled = true
-day = 'Orchis-Yellow-Light'
-night = 'Orchis-Yellow-Dark'
+day = 'Jasper-Yellow-Light'
+night = 'Jasper-Yellow-Dark'
 
 [org.gnome.shell.extensions.nightthemeswitcher.shell-variants]
 enabled = true
-day = 'Orchis-Yellow-Light'
-night = 'Orchis-Yellow-Dark'
+day = 'Jasper-Yellow-Light'
+night = 'Jasper-Yellow-Dark'
 
 [org.gnome.shell.extensions.nightthemeswitcher.commands]
 enabled = true
@@ -167,7 +167,7 @@ sunrise = 'pika-gnome-theme'
 sunset = 'pika-gnome-theme dark'
 
 [org.gnome.shell.extensions.arcmenu]
-custom-menu-button-icon = '/usr/share/pixmaps/pika-mono-logo.svg'
+custom-menu-button-icon = '/usr/share/pixmaps/pika-logo-duotone.svg'
 menu-button-icon = 'Custom_Icon'
 
 [org.gnome.mutter]
