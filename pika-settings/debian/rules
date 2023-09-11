@@ -3,9 +3,5 @@
 override_dh_installgsettings:
 	dh_installgsettings --priority=50
 
-override_dh_install:
-	dh_install
-	ln -sf /usr/share/pixmaps/pika-mono-logo.svg debian/pika-settings/usr/share/pixmaps/pika-mono-logo.png
-
 %:
 	dh $@
