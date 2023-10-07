@@ -1,5 +1,5 @@
 # Clone Upstream
-cd ./pika-settings
+cd ./pika-gnome-settings
 
 # Get build deps
 apt-get build-dep ./ -y
