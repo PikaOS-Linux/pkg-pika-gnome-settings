@@ -15,7 +15,7 @@ then
 . "$HOME/.config/pika_theme"
 fi
 
-if [[ $1 = dark ]]
+if [ "$(gsettings get org.gnome.desktop.interface color-scheme)" = "'prefer-dark'" ]
 then
 gsettings set org.gnome.shell.extensions.user-theme name "$GTK_THEME_DARK"
 gsettings set org.gnome.desktop.interface gtk-theme "$GTK_THEME_DARK"

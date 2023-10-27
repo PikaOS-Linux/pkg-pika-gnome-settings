@@ -1,22 +1,5 @@
 #! /bin/dash
 if [ "$(gsettings get org.pika.layouts pika-theme)"  = 1 ]
 then
-	while true
-	do
-		if [ -f /tmp/pika-gnome-color-scheme ]
-		then
-			if [ "$(gsettings get org.gnome.desktop.interface color-scheme)" != "$(cat /tmp/pika-gnome-color-scheme)" ]
-			then
-				if [ "$(gsettings get org.gnome.desktop.interface color-scheme)" = "'prefer-dark'" ]
-				then
-					pika-gnome-theme dark
-				else
-					pika-gnome-theme
-				fi
-				gsettings get org.gnome.desktop.interface color-scheme > /tmp/pika-gnome-color-scheme
-			fi		
-		else
-			gsettings get org.gnome.desktop.interface color-scheme > /tmp/pika-gnome-color-scheme
-		fi
-	done
+	pika-gnome-darkmode-py
 fi
