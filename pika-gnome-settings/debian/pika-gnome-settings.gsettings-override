@@ -140,7 +140,7 @@ font-name = 'Ubuntu 11'
 color-scheme = 'prefer-dark'
 
 [org.gnome.shell]
-favorite-apps = ['pika-installer.desktop', 'pika-welcome-welcome.desktop', 'firefox.desktop', 'repoman.desktop', 'update-manager.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
+favorite-apps = ['pika-installer.desktop', 'com.github.pikaos-linux.pikawelcome.desktop', 'firefox.desktop', 'repoman.desktop', 'org.gnome.Software.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Settings.desktop', 'org.gnome.Terminal.desktop', 'gnome-system-monitor.desktop']
 
 [org.gnome.shell]
 enabled-extensions = ['ubuntu-appindicators@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'pop-shell@system76.com']
